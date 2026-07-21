@@ -1,0 +1,22 @@
+{
+  "Benign/BitTorrent": 0,
+  "Benign/FTP": 1,
+  "Benign/Facetime": 2,
+  "Benign/Gmail": 3,
+  "Benign/MySQL": 4,
+  "Benign/Outlook": 5,
+  "Benign/SMB": 6,
+  "Benign/Skype": 7,
+  "Benign/Weibo": 8,
+  "Benign/WorldOfWarcraft": 9,
+  "Malware/Cridex": 10,
+  "Malware/Geodo": 11,
+  "Malware/Htbot": 12,
+  "Malware/Miuref": 13,
+  "Malware/Neris": 14,
+  "Malware/Nsis-ay": 15,
+  "Malware/Shifu": 16,
+  "Malware/Tinba": 17,
+  "Malware/Virut": 18,
+  "Malware/Zeus": 19
+}

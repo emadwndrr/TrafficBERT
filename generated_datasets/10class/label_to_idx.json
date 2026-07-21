@@ -1,0 +1,12 @@
+{
+  "Malware/Cridex": 0,
+  "Malware/Geodo": 1,
+  "Malware/Htbot": 2,
+  "Malware/Miuref": 3,
+  "Malware/Neris": 4,
+  "Malware/Nsis-ay": 5,
+  "Malware/Shifu": 6,
+  "Malware/Tinba": 7,
+  "Malware/Virut": 8,
+  "Malware/Zeus": 9
+}

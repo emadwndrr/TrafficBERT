@@ -1,0 +1,1470 @@
+device: cuda
+GPU    : Tesla T4
+memory : 15.6 GB
+num_classes : 20
+train flows : 391,289
+test  flows : 97,812
+
+epoch 01/50  train_loss=0.9863
+  loss=0.6566  acc=0.6793
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1108     1503   0.7372
+  Benign/FTP                        14258    20207   0.7056
+  Benign/Facetime                    1177     1200   0.9808
+  Benign/Gmail                       1269     1725   0.7357
+  Benign/MySQL                       7253    17217   0.4213
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                           64     7787   0.0082
+  Benign/Skype                       1264     1264   1.0000
+  Benign/Weibo                       7947     7990   0.9946
+  Benign/WorldOfWarcraft             1567     1576   0.9943
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      6946     8189   0.8482
+  Malware/Htbot                       966     1267   0.7624
+  Malware/Miuref                     1384     2695   0.5135
+  Malware/Neris                      5276     6758   0.7807
+  Malware/Nsis-ay                    1107     1213   0.9126
+  Malware/Shifu                      1424     1926   0.7394
+  Malware/Tinba                      1687     1700   0.9924
+  Malware/Virut                      4883     6620   0.7376
+  Malware/Zeus                       2115     2194   0.9640
+
+  Benign  acc=0.6031  (37379/61973)
+  Malware acc=0.8109  (29063/35839)
+    best model saved (malware_acc=0.8109)
+
+epoch 02/50  train_loss=0.4854
+  loss=0.4940  acc=0.7902
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1387     1503   0.9228
+  Benign/FTP                        16307    20207   0.8070
+  Benign/Facetime                    1177     1200   0.9808
+  Benign/Gmail                       1182     1725   0.6852
+  Benign/MySQL                      13004    17217   0.7553
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                          627     7787   0.0805
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       7618     7990   0.9534
+  Benign/WorldOfWarcraft             1568     1576   0.9949
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8025     8189   0.9800
+  Malware/Htbot                      1071     1267   0.8453
+  Malware/Miuref                     1441     2695   0.5347
+  Malware/Neris                      5957     6758   0.8815
+  Malware/Nsis-ay                    1169     1213   0.9637
+  Malware/Shifu                      1894     1926   0.9834
+  Malware/Tinba                      1700     1700   1.0000
+  Malware/Virut                      5044     6620   0.7619
+  Malware/Zeus                       2156     2194   0.9827
+
+  Benign  acc=0.7351  (45559/61973)
+  Malware acc=0.8854  (31732/35839)
+    best model saved (malware_acc=0.8854)
+
+epoch 03/50  train_loss=0.3910
+  loss=0.4567  acc=0.7973
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1387     1503   0.9228
+  Benign/FTP                        15693    20207   0.7766
+  Benign/Facetime                    1177     1200   0.9808
+  Benign/Gmail                       1245     1725   0.7217
+  Benign/MySQL                      13724    17217   0.7971
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                         1036     7787   0.1330
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       7459     7990   0.9335
+  Benign/WorldOfWarcraft             1568     1576   0.9949
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      7996     8189   0.9764
+  Malware/Htbot                      1133     1267   0.8942
+  Malware/Miuref                     1444     2695   0.5358
+  Malware/Neris                      6153     6758   0.9105
+  Malware/Nsis-ay                    1173     1213   0.9670
+  Malware/Shifu                      1912     1926   0.9927
+  Malware/Tinba                      1700     1700   1.0000
+  Malware/Virut                      5088     6620   0.7686
+  Malware/Zeus                       2131     2194   0.9713
+
+  Benign  acc=0.7419  (45978/61973)
+  Malware acc=0.8930  (32005/35839)
+    best model saved (malware_acc=0.8930)
+
+epoch 04/50  train_loss=0.3512
+  loss=0.4067  acc=0.8326
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1387     1503   0.9228
+  Benign/FTP                        17771    20207   0.8794
+  Benign/Facetime                    1177     1200   0.9808
+  Benign/Gmail                       1271     1725   0.7368
+  Benign/MySQL                      15196    17217   0.8826
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                         1830     7787   0.2350
+  Benign/Skype                       1207     1264   0.9549
+  Benign/Weibo                       6827     7990   0.8544
+  Benign/WorldOfWarcraft             1568     1576   0.9949
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8031     8189   0.9807
+  Malware/Htbot                      1094     1267   0.8635
+  Malware/Miuref                     1445     2695   0.5362
+  Malware/Neris                      4484     6758   0.6635
+  Malware/Nsis-ay                    1173     1213   0.9670
+  Malware/Shifu                      1912     1926   0.9927
+  Malware/Tinba                      1700     1700   1.0000
+  Malware/Virut                      6478     6620   0.9785
+  Malware/Zeus                       2144     2194   0.9772
+
+  Benign  acc=0.8021  (49706/61973)
+  Malware acc=0.8855  (31736/35839)
+
+epoch 05/50  train_loss=0.3259
+  loss=0.5259  acc=0.7201
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        14168    20207   0.7011
+  Benign/Facetime                    1177     1200   0.9808
+  Benign/Gmail                       1257     1725   0.7287
+  Benign/MySQL                      13887    17217   0.8066
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                          968     7787   0.1243
+  Benign/Skype                       1206     1264   0.9541
+  Benign/Weibo                       7874     7990   0.9855
+  Benign/WorldOfWarcraft             1570     1576   0.9962
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      1355     8189   0.1655
+  Malware/Htbot                      1172     1267   0.9250
+  Malware/Miuref                     1442     2695   0.5351
+  Malware/Neris                      6327     6758   0.9362
+  Malware/Nsis-ay                    1172     1213   0.9662
+  Malware/Shifu                      1902     1926   0.9875
+  Malware/Tinba                      1687     1700   0.9924
+  Malware/Virut                      4881     6620   0.7373
+  Malware/Zeus                       2153     2194   0.9813
+
+  Benign  acc=0.7272  (45067/61973)
+  Malware acc=0.7078  (25366/35839)
+
+epoch 06/50  train_loss=0.3153
+  loss=0.3566  acc=0.8482
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17799    20207   0.8808
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1263     1725   0.7322
+  Benign/MySQL                      16483    17217   0.9574
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                         2069     7787   0.2657
+  Benign/Skype                       1264     1264   1.0000
+  Benign/Weibo                       6674     7990   0.8353
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      7673     8189   0.9370
+  Malware/Htbot                      1164     1267   0.9187
+  Malware/Miuref                     1450     2695   0.5380
+  Malware/Neris                      6176     6758   0.9139
+  Malware/Nsis-ay                    1174     1213   0.9678
+  Malware/Shifu                      1913     1926   0.9933
+  Malware/Tinba                      1700     1700   1.0000
+  Malware/Virut                      4983     6620   0.7527
+  Malware/Zeus                       2172     2194   0.9900
+
+  Benign  acc=0.8275  (51284/61973)
+  Malware acc=0.8840  (31680/35839)
+
+epoch 07/50  train_loss=0.3003
+  loss=0.3630  acc=0.8168
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        18485    20207   0.9148
+  Benign/Facetime                    1177     1200   0.9808
+  Benign/Gmail                       1263     1725   0.7322
+  Benign/MySQL                      12267    17217   0.7125
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                         1539     7787   0.1976
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       7227     7990   0.9045
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8054     8189   0.9835
+  Malware/Htbot                      1156     1267   0.9124
+  Malware/Miuref                     1450     2695   0.5380
+  Malware/Neris                      6205     6758   0.9182
+  Malware/Nsis-ay                    1182     1213   0.9744
+  Malware/Shifu                      1913     1926   0.9933
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      5082     6620   0.7677
+  Malware/Zeus                       2174     2194   0.9909
+
+  Benign  acc=0.7698  (47707/61973)
+  Malware acc=0.8982  (32190/35839)
+    best model saved (malware_acc=0.8982)
+
+epoch 08/50  train_loss=0.2940
+  loss=0.3444  acc=0.8461
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1384     1503   0.9208
+  Benign/FTP                        17878    20207   0.8847
+  Benign/Facetime                    1177     1200   0.9808
+  Benign/Gmail                       1310     1725   0.7594
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                         1104     7787   0.1418
+  Benign/Skype                       1264     1264   1.0000
+  Benign/Weibo                       7856     7990   0.9832
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      7655     8189   0.9348
+  Malware/Htbot                      1191     1267   0.9400
+  Malware/Miuref                     1450     2695   0.5380
+  Malware/Neris                      6309     6758   0.9336
+  Malware/Nsis-ay                    1181     1213   0.9736
+  Malware/Shifu                      1913     1926   0.9933
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4979     6620   0.7521
+  Malware/Zeus                       2173     2194   0.9904
+
+  Benign  acc=0.8218  (50931/61973)
+  Malware acc=0.8880  (31825/35839)
+
+epoch 09/50  train_loss=0.2842
+  loss=0.3939  acc=0.7974
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        15303    20207   0.7573
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1210     1725   0.7014
+  Benign/MySQL                      13215    17217   0.7676
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                         2466     7787   0.3167
+  Benign/Skype                       1213     1264   0.9597
+  Benign/Weibo                       6521     7990   0.8161
+  Benign/WorldOfWarcraft             1570     1576   0.9962
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8052     8189   0.9833
+  Malware/Htbot                      1200     1267   0.9471
+  Malware/Miuref                     1447     2695   0.5369
+  Malware/Neris                      6366     6758   0.9420
+  Malware/Nsis-ay                    1178     1213   0.9711
+  Malware/Shifu                      1913     1926   0.9933
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      5056     6620   0.7637
+  Malware/Zeus                       2148     2194   0.9790
+
+  Benign  acc=0.7367  (45658/61973)
+  Malware acc=0.9022  (32334/35839)
+    best model saved (malware_acc=0.9022)
+
+epoch 10/50  train_loss=0.2801
+  loss=0.3402  acc=0.8380
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17246    20207   0.8535
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1271     1725   0.7368
+  Benign/MySQL                      15196    17217   0.8826
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                         2062     7787   0.2648
+  Benign/Skype                       1213     1264   0.9597
+  Benign/Weibo                       7084     7990   0.8866
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8054     8189   0.9835
+  Malware/Htbot                      1179     1267   0.9305
+  Malware/Miuref                     1450     2695   0.5380
+  Malware/Neris                      6328     6758   0.9364
+  Malware/Nsis-ay                    1184     1213   0.9761
+  Malware/Shifu                      1913     1926   0.9933
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4912     6620   0.7420
+  Malware/Zeus                       2173     2194   0.9904
+
+  Benign  acc=0.8036  (49804/61973)
+  Malware acc=0.8975  (32167/35839)
+
+epoch 11/50  train_loss=0.2717
+  loss=0.3590  acc=0.8203
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17879    20207   0.8848
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1271     1725   0.7368
+  Benign/MySQL                      13004    17217   0.7553
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                         2647     7787   0.3399
+  Benign/Skype                       1193     1264   0.9438
+  Benign/Weibo                       6526     7990   0.8168
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8050     8189   0.9830
+  Malware/Htbot                      1195     1267   0.9432
+  Malware/Miuref                     1450     2695   0.5380
+  Malware/Neris                      4589     6758   0.6790
+  Malware/Nsis-ay                    1182     1213   0.9744
+  Malware/Shifu                      1913     1926   0.9933
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      6457     6620   0.9754
+  Malware/Zeus                       2177     2194   0.9923
+
+  Benign  acc=0.7786  (48252/61973)
+  Malware acc=0.8925  (31987/35839)
+
+epoch 12/50  train_loss=0.2653
+  loss=0.3249  acc=0.8504
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17877    20207   0.8847
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1278     1725   0.7409
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                         2527     7787   0.3245
+  Benign/Skype                       1264     1264   1.0000
+  Benign/Weibo                       6695     7990   0.8379
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      7686     8189   0.9386
+  Malware/Htbot                      1215     1267   0.9590
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6347     6758   0.9392
+  Malware/Nsis-ay                    1189     1213   0.9802
+  Malware/Shifu                      1913     1926   0.9933
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4935     6620   0.7455
+  Malware/Zeus                       2174     2194   0.9909
+
+  Benign  acc=0.8277  (51297/61973)
+  Malware acc=0.8896  (31884/35839)
+
+epoch 13/50  train_loss=0.2627
+  loss=0.3244  acc=0.8452
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17697    20207   0.8758
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1297     1725   0.7519
+  Benign/MySQL                      15196    17217   0.8826
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                         2427     7787   0.3117
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6784     7990   0.8491
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8054     8189   0.9835
+  Malware/Htbot                      1208     1267   0.9534
+  Malware/Miuref                     1448     2695   0.5373
+  Malware/Neris                      6415     6758   0.9492
+  Malware/Nsis-ay                    1179     1213   0.9720
+  Malware/Shifu                      1913     1926   0.9933
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4948     6620   0.7474
+  Malware/Zeus                       2174     2194   0.9909
+
+  Benign  acc=0.8126  (50360/61973)
+  Malware acc=0.9016  (32313/35839)
+
+epoch 14/50  train_loss=0.2578
+  loss=0.3087  acc=0.8505
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17853    20207   0.8835
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1279     1725   0.7414
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                         2584     7787   0.3318
+  Benign/Skype                       1264     1264   1.0000
+  Benign/Weibo                       6648     7990   0.8320
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      7675     8189   0.9372
+  Malware/Htbot                      1220     1267   0.9629
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6393     6758   0.9460
+  Malware/Nsis-ay                    1183     1213   0.9753
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4932     6620   0.7450
+  Malware/Zeus                       2175     2194   0.9913
+
+  Benign  acc=0.8274  (51274/61973)
+  Malware acc=0.8906  (31918/35839)
+
+epoch 15/50  train_loss=0.2551
+  loss=0.3013  acc=0.8562
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17878    20207   0.8847
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1272     1725   0.7374
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1472     1504   0.9787
+  Benign/SMB                         2926     7787   0.3758
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6465     7990   0.8091
+  Benign/WorldOfWarcraft             1571     1576   0.9968
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8052     8189   0.9833
+  Malware/Htbot                      1216     1267   0.9597
+  Malware/Miuref                     1450     2695   0.5380
+  Malware/Neris                      6372     6758   0.9429
+  Malware/Nsis-ay                    1189     1213   0.9802
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      5006     6620   0.7562
+  Malware/Zeus                       2172     2194   0.9900
+
+  Benign  acc=0.8294  (51403/61973)
+  Malware acc=0.9025  (32346/35839)
+    best model saved (malware_acc=0.9025)
+
+epoch 16/50  train_loss=0.2497
+  loss=0.3129  acc=0.8561
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17879    20207   0.8848
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1272     1725   0.7374
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1477     1504   0.9820
+  Benign/SMB                         2807     7787   0.3605
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6593     7990   0.8252
+  Benign/WorldOfWarcraft             1571     1576   0.9968
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      7997     8189   0.9766
+  Malware/Htbot                      1215     1267   0.9590
+  Malware/Miuref                     1449     2695   0.5377
+  Malware/Neris                      6493     6758   0.9608
+  Malware/Nsis-ay                    1187     1213   0.9786
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1700     1700   1.0000
+  Malware/Virut                      4906     6620   0.7411
+  Malware/Zeus                       2178     2194   0.9927
+
+  Benign  acc=0.8297  (51418/61973)
+  Malware acc=0.9017  (32315/35839)
+
+epoch 17/50  train_loss=0.2490
+  loss=0.3165  acc=0.8491
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17272    20207   0.8548
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1296     1725   0.7513
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1477     1504   0.9820
+  Benign/SMB                         2794     7787   0.3588
+  Benign/Skype                       1264     1264   1.0000
+  Benign/Weibo                       6827     7990   0.8544
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      7689     8189   0.9389
+  Malware/Htbot                      1201     1267   0.9479
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6333     6758   0.9371
+  Malware/Nsis-ay                    1195     1213   0.9852
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      5000     6620   0.7553
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8248  (51114/61973)
+  Malware acc=0.8911  (31937/35839)
+
+epoch 18/50  train_loss=0.2448
+  loss=0.3248  acc=0.8507
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        18080    20207   0.8947
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1272     1725   0.7374
+  Benign/MySQL                      15196    17217   0.8826
+  Benign/Outlook                     1477     1504   0.9820
+  Benign/SMB                         2441     7787   0.3135
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6869     7990   0.8597
+  Benign/WorldOfWarcraft             1571     1576   0.9968
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8053     8189   0.9834
+  Malware/Htbot                      1220     1267   0.9629
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6383     6758   0.9445
+  Malware/Nsis-ay                    1192     1213   0.9827
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      5034     6620   0.7604
+  Malware/Zeus                       2176     2194   0.9918
+
+  Benign  acc=0.8199  (50811/61973)
+  Malware acc=0.9040  (32398/35839)
+    best model saved (malware_acc=0.9040)
+
+epoch 19/50  train_loss=0.2452
+  loss=0.2953  acc=0.8542
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17878    20207   0.8847
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1295     1725   0.7507
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1477     1504   0.9820
+  Benign/SMB                         2770     7787   0.3557
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6576     7990   0.8230
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8050     8189   0.9830
+  Malware/Htbot                      1221     1267   0.9637
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      4728     6758   0.6996
+  Malware/Nsis-ay                    1194     1213   0.9843
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      6440     6620   0.9728
+  Malware/Zeus                       2178     2194   0.9927
+
+  Benign  acc=0.8293  (51397/61973)
+  Malware acc=0.8971  (32151/35839)
+
+epoch 20/50  train_loss=0.2408
+  loss=0.3002  acc=0.8562
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17878    20207   0.8847
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1295     1725   0.7507
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1477     1504   0.9820
+  Benign/SMB                         2650     7787   0.3403
+  Benign/Skype                       1213     1264   0.9597
+  Benign/Weibo                       6753     7990   0.8452
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8000     8189   0.9769
+  Malware/Htbot                      1220     1267   0.9629
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6435     6758   0.9522
+  Malware/Nsis-ay                    1194     1213   0.9843
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4936     6620   0.7456
+  Malware/Zeus                       2178     2194   0.9927
+
+  Benign  acc=0.8300  (51440/61973)
+  Malware acc=0.9013  (32303/35839)
+
+epoch 21/50  train_loss=0.2379
+  loss=0.3026  acc=0.8584
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17878    20207   0.8847
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1272     1725   0.7374
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1477     1504   0.9820
+  Benign/SMB                         2898     7787   0.3722
+  Benign/Skype                       1213     1264   0.9597
+  Benign/Weibo                       6681     7990   0.8362
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8055     8189   0.9836
+  Malware/Htbot                      1221     1267   0.9637
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6401     6758   0.9472
+  Malware/Nsis-ay                    1193     1213   0.9835
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4983     6620   0.7527
+  Malware/Zeus                       2177     2194   0.9923
+
+  Benign  acc=0.8325  (51593/61973)
+  Malware acc=0.9032  (32370/35839)
+
+epoch 22/50  train_loss=0.2372
+  loss=0.2857  acc=0.8704
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17879    20207   0.8848
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1292     1725   0.7490
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1477     1504   0.9820
+  Benign/SMB                         3050     7787   0.3917
+  Benign/Skype                       1264     1264   1.0000
+  Benign/Weibo                       6612     7990   0.8275
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      7687     8189   0.9387
+  Malware/Htbot                      1225     1267   0.9669
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6426     6758   0.9509
+  Malware/Nsis-ay                    1195     1213   0.9852
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      5050     6620   0.7628
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8558  (53035/61973)
+  Malware acc=0.8957  (32102/35839)
+
+epoch 23/50  train_loss=0.2345
+  loss=0.2944  acc=0.8581
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17879    20207   0.8848
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1351     1725   0.7832
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1477     1504   0.9820
+  Benign/SMB                         1872     7787   0.2404
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       7508     7990   0.9397
+  Benign/WorldOfWarcraft             1571     1576   0.9968
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8055     8189   0.9836
+  Malware/Htbot                      1227     1267   0.9684
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6492     6758   0.9606
+  Malware/Nsis-ay                    1194     1213   0.9843
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4971     6620   0.7509
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8306  (51477/61973)
+  Malware acc=0.9057  (32458/35839)
+    best model saved (malware_acc=0.9057)
+
+epoch 24/50  train_loss=0.2327
+  loss=0.3096  acc=0.8556
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17864    20207   0.8841
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1297     1725   0.7519
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         3098     7787   0.3978
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6159     7990   0.7708
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8047     8189   0.9827
+  Malware/Htbot                      1233     1267   0.9732
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6404     6758   0.9476
+  Malware/Nsis-ay                    1196     1213   0.9860
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4998     6620   0.7550
+  Malware/Zeus                       2178     2194   0.9927
+
+  Benign  acc=0.8277  (51293/61973)
+  Malware acc=0.9039  (32396/35839)
+
+epoch 25/50  train_loss=0.2326
+  loss=0.2862  acc=0.8600
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17878    20207   0.8847
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1292     1725   0.7490
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         3173     7787   0.4075
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6489     7990   0.8121
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8051     8189   0.9831
+  Malware/Htbot                      1230     1267   0.9708
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6460     6758   0.9559
+  Malware/Nsis-ay                    1195     1213   0.9852
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4957     6620   0.7488
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8343  (51707/61973)
+  Malware acc=0.9044  (32412/35839)
+
+epoch 26/50  train_loss=0.2292
+  loss=0.2776  acc=0.8697
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17878    20207   0.8847
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1295     1725   0.7507
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2609     7787   0.3350
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6635     7990   0.8304
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8054     8189   0.9835
+  Malware/Htbot                      1232     1267   0.9724
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6529     6758   0.9661
+  Malware/Nsis-ay                    1198     1213   0.9876
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4944     6620   0.7468
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8486  (52589/61973)
+  Malware acc=0.9062  (32476/35839)
+    best model saved (malware_acc=0.9062)
+
+epoch 27/50  train_loss=0.2282
+  loss=0.3012  acc=0.8492
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17671    20207   0.8745
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1296     1725   0.7513
+  Benign/MySQL                      15196    17217   0.8826
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         3001     7787   0.3854
+  Benign/Skype                       1213     1264   0.9597
+  Benign/Weibo                       6499     7990   0.8134
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8055     8189   0.9836
+  Malware/Htbot                      1243     1267   0.9811
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6478     6758   0.9586
+  Malware/Nsis-ay                    1196     1213   0.9860
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1700     1700   1.0000
+  Malware/Virut                      4947     6620   0.7473
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8168  (50620/61973)
+  Malware acc=0.9051  (32439/35839)
+
+epoch 28/50  train_loss=0.2268
+  loss=0.2847  acc=0.8661
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1489     1503   0.9907
+  Benign/FTP                        17878    20207   0.8847
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1295     1725   0.7507
+  Benign/MySQL                      16483    17217   0.9574
+  Benign/Outlook                     1481     1504   0.9847
+  Benign/SMB                         3128     7787   0.4017
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6561     7990   0.8212
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8056     8189   0.9838
+  Malware/Htbot                      1234     1267   0.9740
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6465     6758   0.9566
+  Malware/Nsis-ay                    1200     1213   0.9893
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1700     1700   1.0000
+  Malware/Virut                      4934     6620   0.7453
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8440  (52304/61973)
+  Malware acc=0.9043  (32409/35839)
+
+epoch 29/50  train_loss=0.2252
+  loss=0.2697  acc=0.8716
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1465     1503   0.9747
+  Benign/FTP                        17880    20207   0.8848
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1296     1725   0.7513
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2909     7787   0.3736
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6802     7990   0.8513
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8054     8189   0.9835
+  Malware/Htbot                      1227     1267   0.9684
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      4803     6758   0.7107
+  Malware/Nsis-ay                    1197     1213   0.9868
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      6427     6620   0.9708
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8556  (53026/61973)
+  Malware acc=0.8992  (32227/35839)
+
+epoch 30/50  train_loss=0.2232
+  loss=0.2741  acc=0.8729
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17837    20207   0.8827
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1297     1725   0.7519
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2966     7787   0.3809
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6641     7990   0.8312
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8055     8189   0.9836
+  Malware/Htbot                      1225     1267   0.9669
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6535     6758   0.9670
+  Malware/Nsis-ay                    1198     1213   0.9876
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4944     6620   0.7468
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8536  (52903/61973)
+  Malware acc=0.9062  (32476/35839)
+
+epoch 31/50  train_loss=0.2222
+  loss=0.2808  acc=0.8577
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17720    20207   0.8769
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1297     1725   0.7519
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         3032     7787   0.3894
+  Benign/Skype                       1213     1264   0.9597
+  Benign/Weibo                       6489     7990   0.8121
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8057     8189   0.9839
+  Malware/Htbot                      1239     1267   0.9779
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6407     6758   0.9481
+  Malware/Nsis-ay                    1198     1213   0.9876
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      5058     6620   0.7640
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8297  (51419/61973)
+  Malware acc=0.9062  (32478/35839)
+    best model saved (malware_acc=0.9062)
+
+epoch 32/50  train_loss=0.2215
+  loss=0.2805  acc=0.8599
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17868    20207   0.8842
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1296     1725   0.7513
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1481     1504   0.9847
+  Benign/SMB                         2834     7787   0.3639
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6814     7990   0.8528
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8051     8189   0.9831
+  Malware/Htbot                      1231     1267   0.9716
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6388     6758   0.9453
+  Malware/Nsis-ay                    1197     1213   0.9868
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      5038     6620   0.7610
+  Malware/Zeus                       2180     2194   0.9936
+
+  Benign  acc=0.8340  (51684/61973)
+  Malware acc=0.9047  (32425/35839)
+
+epoch 33/50  train_loss=0.2197
+  loss=0.2942  acc=0.8601
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17749    20207   0.8784
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1297     1725   0.7519
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2948     7787   0.3786
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6780     7990   0.8486
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8064     8189   0.9847
+  Malware/Htbot                      1237     1267   0.9763
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6464     6758   0.9565
+  Malware/Nsis-ay                    1199     1213   0.9885
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1700     1700   1.0000
+  Malware/Virut                      4997     6620   0.7548
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8334  (51649/61973)
+  Malware acc=0.9063  (32481/35839)
+    best model saved (malware_acc=0.9063)
+
+epoch 34/50  train_loss=0.2188
+  loss=0.2716  acc=0.8753
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17865    20207   0.8841
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1356     1725   0.7861
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2848     7787   0.3657
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6875     7990   0.8605
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8056     8189   0.9838
+  Malware/Htbot                      1235     1267   0.9747
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6532     6758   0.9666
+  Malware/Nsis-ay                    1196     1213   0.9860
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4974     6620   0.7514
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8569  (53106/61973)
+  Malware acc=0.9072  (32512/35839)
+    best model saved (malware_acc=0.9072)
+
+epoch 35/50  train_loss=0.2173
+  loss=0.2804  acc=0.8602
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17877    20207   0.8847
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1355     1725   0.7855
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2683     7787   0.3445
+  Benign/Skype                       1213     1264   0.9597
+  Benign/Weibo                       6844     7990   0.8566
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8059     8189   0.9841
+  Malware/Htbot                      1234     1267   0.9740
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6551     6758   0.9694
+  Malware/Nsis-ay                    1196     1213   0.9860
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1700     1700   1.0000
+  Malware/Virut                      4944     6620   0.7468
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8331  (51630/61973)
+  Malware acc=0.9069  (32504/35839)
+
+epoch 36/50  train_loss=0.2161
+  loss=0.2695  acc=0.8732
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17827    20207   0.8822
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1298     1725   0.7525
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2959     7787   0.3800
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6687     7990   0.8369
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8059     8189   0.9841
+  Malware/Htbot                      1232     1267   0.9724
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6458     6758   0.9556
+  Malware/Nsis-ay                    1202     1213   0.9909
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4992     6620   0.7541
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8543  (52943/61973)
+  Malware acc=0.9058  (32462/35839)
+
+epoch 37/50  train_loss=0.2152
+  loss=0.2925  acc=0.8601
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17724    20207   0.8771
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1297     1725   0.7519
+  Benign/MySQL                      15914    17217   0.9243
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2933     7787   0.3767
+  Benign/Skype                       1213     1264   0.9597
+  Benign/Weibo                       6806     7990   0.8518
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8067     8189   0.9851
+  Malware/Htbot                      1240     1267   0.9787
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6471     6758   0.9575
+  Malware/Nsis-ay                    1199     1213   0.9885
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1700     1700   1.0000
+  Malware/Virut                      4988     6620   0.7535
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8333  (51641/61973)
+  Malware acc=0.9064  (32485/35839)
+
+epoch 38/50  train_loss=0.2142
+  loss=0.2736  acc=0.8668
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17865    20207   0.8841
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1296     1725   0.7513
+  Benign/MySQL                      16483    17217   0.9574
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2889     7787   0.3710
+  Benign/Skype                       1213     1264   0.9597
+  Benign/Weibo                       6844     7990   0.8566
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8058     8189   0.9840
+  Malware/Htbot                      1235     1267   0.9747
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6499     6758   0.9617
+  Malware/Nsis-ay                    1199     1213   0.9885
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4943     6620   0.7467
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8445  (52334/61973)
+  Malware acc=0.9055  (32453/35839)
+
+epoch 39/50  train_loss=0.2142
+  loss=0.2639  acc=0.8750
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17772    20207   0.8795
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1357     1725   0.7867
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2934     7787   0.3768
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6796     7990   0.8506
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8063     8189   0.9846
+  Malware/Htbot                      1240     1267   0.9787
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6468     6758   0.9571
+  Malware/Nsis-ay                    1197     1213   0.9868
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      5069     6620   0.7657
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8557  (53031/61973)
+  Malware acc=0.9084  (32556/35839)
+    best model saved (malware_acc=0.9084)
+
+epoch 40/50  train_loss=0.2125
+  loss=0.2660  acc=0.8747
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17866    20207   0.8841
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1298     1725   0.7525
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         3055     7787   0.3923
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6643     7990   0.8314
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8072     8189   0.9857
+  Malware/Htbot                      1242     1267   0.9803
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6535     6758   0.9670
+  Malware/Nsis-ay                    1199     1213   0.9885
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4969     6620   0.7506
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8556  (53024/61973)
+  Malware acc=0.9078  (32536/35839)
+
+epoch 41/50  train_loss=0.2116
+  loss=0.2607  acc=0.8749
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17848    20207   0.8833
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1357     1725   0.7867
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         3139     7787   0.4031
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6484     7990   0.8115
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8068     8189   0.9852
+  Malware/Htbot                      1239     1267   0.9779
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6460     6758   0.9559
+  Malware/Nsis-ay                    1199     1213   0.9885
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      5089     6620   0.7687
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8552  (53000/61973)
+  Malware acc=0.9089  (32574/35839)
+    best model saved (malware_acc=0.9089)
+
+epoch 42/50  train_loss=0.2111
+  loss=0.2629  acc=0.8734
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17752    20207   0.8785
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1298     1725   0.7525
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         3173     7787   0.4075
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6522     7990   0.8163
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8068     8189   0.9852
+  Malware/Htbot                      1239     1267   0.9779
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6415     6758   0.9492
+  Malware/Nsis-ay                    1198     1213   0.9876
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      5085     6620   0.7681
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8537  (52907/61973)
+  Malware acc=0.9075  (32524/35839)
+
+epoch 43/50  train_loss=0.2105
+  loss=0.2621  acc=0.8743
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1488     1503   0.9900
+  Benign/FTP                        17867    20207   0.8842
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1297     1725   0.7519
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2879     7787   0.3697
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6767     7990   0.8469
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8069     8189   0.9853
+  Malware/Htbot                      1244     1267   0.9818
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6537     6758   0.9673
+  Malware/Nsis-ay                    1197     1213   0.9868
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4983     6620   0.7527
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8548  (52972/61973)
+  Malware acc=0.9082  (32549/35839)
+
+epoch 44/50  train_loss=0.2099
+  loss=0.2622  acc=0.8751
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17831    20207   0.8824
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1356     1725   0.7861
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2955     7787   0.3795
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6777     7990   0.8482
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8068     8189   0.9852
+  Malware/Htbot                      1242     1267   0.9803
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6475     6758   0.9581
+  Malware/Nsis-ay                    1198     1213   0.9876
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      5001     6620   0.7554
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8567  (53091/61973)
+  Malware acc=0.9069  (32503/35839)
+
+epoch 45/50  train_loss=0.2096
+  loss=0.2616  acc=0.8757
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17825    20207   0.8821
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1357     1725   0.7867
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         3053     7787   0.3921
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6697     7990   0.8382
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8068     8189   0.9852
+  Malware/Htbot                      1244     1267   0.9818
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6516     6758   0.9642
+  Malware/Nsis-ay                    1200     1213   0.9893
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      5000     6620   0.7553
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8569  (53104/61973)
+  Malware acc=0.9081  (32547/35839)
+
+epoch 46/50  train_loss=0.2092
+  loss=0.2606  acc=0.8745
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17774    20207   0.8796
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1357     1725   0.7867
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2950     7787   0.3788
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6785     7990   0.8492
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8068     8189   0.9852
+  Malware/Htbot                      1242     1267   0.9803
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6477     6758   0.9584
+  Malware/Nsis-ay                    1198     1213   0.9876
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4991     6620   0.7539
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8558  (53038/61973)
+  Malware acc=0.9067  (32495/35839)
+
+epoch 47/50  train_loss=0.2086
+  loss=0.2602  acc=0.8760
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17868    20207   0.8842
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1357     1725   0.7867
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         2950     7787   0.3788
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6785     7990   0.8492
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8069     8189   0.9853
+  Malware/Htbot                      1244     1267   0.9818
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6531     6758   0.9664
+  Malware/Nsis-ay                    1199     1213   0.9885
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4987     6620   0.7533
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8573  (53132/61973)
+  Malware acc=0.9082  (32549/35839)
+
+epoch 48/50  train_loss=0.2087
+  loss=0.2609  acc=0.8755
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17867    20207   0.8842
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1357     1725   0.7867
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         3063     7787   0.3933
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6675     7990   0.8354
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8068     8189   0.9852
+  Malware/Htbot                      1245     1267   0.9826
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6483     6758   0.9593
+  Malware/Nsis-ay                    1198     1213   0.9876
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4991     6620   0.7539
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8574  (53134/61973)
+  Malware acc=0.9069  (32504/35839)
+
+epoch 49/50  train_loss=0.2086
+  loss=0.2606  acc=0.8754
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17860    20207   0.8839
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1298     1725   0.7525
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         3063     7787   0.3933
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6675     7990   0.8354
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8069     8189   0.9853
+  Malware/Htbot                      1245     1267   0.9826
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6533     6758   0.9667
+  Malware/Nsis-ay                    1198     1213   0.9876
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4991     6620   0.7539
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8563  (53068/61973)
+  Malware acc=0.9084  (32555/35839)
+
+epoch 50/50  train_loss=0.2085
+  loss=0.2606  acc=0.8760
+
+  Label                           Correct    Total      Acc
+  ----------------------------------------------------------
+  Benign/BitTorrent                  1498     1503   0.9967
+  Benign/FTP                        17860    20207   0.8839
+  Benign/Facetime                    1200     1200   1.0000
+  Benign/Gmail                       1357     1725   0.7867
+  Benign/MySQL                      17201    17217   0.9991
+  Benign/Outlook                     1484     1504   0.9867
+  Benign/SMB                         3063     7787   0.3933
+  Benign/Skype                       1217     1264   0.9628
+  Benign/Weibo                       6675     7990   0.8354
+  Benign/WorldOfWarcraft             1572     1576   0.9975
+  Malware/Cridex                     3275     3277   0.9994
+  Malware/Geodo                      8068     8189   0.9852
+  Malware/Htbot                      1245     1267   0.9826
+  Malware/Miuref                     1451     2695   0.5384
+  Malware/Neris                      6533     6758   0.9667
+  Malware/Nsis-ay                    1198     1213   0.9876
+  Malware/Shifu                      1915     1926   0.9943
+  Malware/Tinba                      1699     1700   0.9994
+  Malware/Virut                      4991     6620   0.7539
+  Malware/Zeus                       2179     2194   0.9932
+
+  Benign  acc=0.8573  (53127/61973)
+  Malware acc=0.9083  (32554/35839)
